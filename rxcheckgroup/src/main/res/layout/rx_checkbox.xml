@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckBox xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="50dp"
+    android:layout_height="30dp"
+    android:layout_columnWeight="1"
+    android:button="@null"
+    android:clickable="true"
+    android:enabled="true"
+    android:gravity="center"
+    android:checked="false"
+    android:singleLine="true"
+    android:text="水电工程"
+    android:textSize="14sp"
+    android:background="@drawable/check_background_selector"
+    android:textColor="@drawable/check_text_selector" />

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CheckGroup">
+        <!--选择模式-->
+        <attr name="checkMode">
+            <flag name="single" value="1" />
+            <flag name="muilt" value="2" />
+        </attr>
+        <!--是否支持取消选中-->
+        <attr name="ableCancleChecked" format="boolean" />
+        <!--第一个tab默认是否为选中状态-->
+        <attr name="firstChecked" format="boolean" />
+        <!--横向排列个数权重-->
+        <attr name="columnWeight" format="integer" />
+        <!--单个item高度-->
+        <attr name="tabHeight" format="integer|dimension" />
+        <!--item边距-->
+        <attr name="tabLeftMargin" format="integer|dimension" />
+        <attr name="tabRightMargin" format="integer|dimension" />
+        <attr name="tabTopMargin" format="integer|dimension" />
+        <!--item背景选择器-->
+        <attr name="tabBackgroundDrawable" format="reference" />
+        <!--item文字颜色选择器-->
+        <attr name="tabTextColorSelector" format="reference" />
+        <!--item文字大小-->
+        <attr name="tabTextSize" format="integer" />
+    </declare-styleable>
+
+
+</resources>
