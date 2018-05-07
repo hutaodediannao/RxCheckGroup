@@ -1,6 +1,8 @@
 # RxCheckGroup
 多选，单选，tab选择器
 
+![效果展示](https://github.com/hutaodediannao/RxCheckGroup/blob/master/Screenshot_2018-05-07-19-49-17-349_com.test.rxche.png)
+
 使用：
 compile 'com.hutao:RxCheckGroup:1.0.0'
 
